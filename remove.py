@@ -19,3 +19,8 @@ fin.close()
 fout.close()
 
 print "\033[1;31mDONE!  \033[1;m"
+dd if=kali-linux-2017.1-amd64.iso of=/dev/sdb bs=512k
+5823+1 records in
+5823+1 records out
+3053371392 bytes (3.1 GB) copied, 746.211 s, 4.1 MB/s
+diskutil unmount /dev/disk6
